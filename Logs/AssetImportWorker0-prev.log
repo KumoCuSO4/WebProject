@@ -1,0 +1,462 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.26f1c1 (19b503b0ef33) revision 1684739'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.18363) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 24414 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.26f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/WebProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65239
+Successfully changed project path to: D:/UnityProjects/WebProject
+D:/UnityProjects/WebProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25256] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3366391721 [EditorId] 3366391721 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H3A69CJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25256] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3366391721 [EditorId] 3366391721 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H3A69CJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 169.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1c1 (19b503b0ef33)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.26f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/WebProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.6230
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.26f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.26f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.26f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.26f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.039385 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 177.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.715 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3716ms)
+		BeginReloadAssembly (526ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (2261ms)
+			LoadAssemblies (490ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1366ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (660ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (178ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.115753 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\WebProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\WebProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Could not load signature of ProtoBuf.Grpc.Configuration.ServerExceptionsInterceptorBase:UnaryServerHandler due to: Could not resolve type with token 01000028 from typeref (expected class 'System.Threading.Tasks.Task`1' in assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a') assembly:System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a type:System.Threading.Tasks.Task`1 member:(null)
+Unable to load attribute info on field .<>f__AnonymousType0`2::<method>i__Field. Are you missing a reference?
+Could not resolve field token 0x04000168, due to: Could not set up parent class, due to: Could not resolve type with token 01000028 from typeref (expected class 'System.IO.Stream' in assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a') assembly:System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a type:System.IO.Stream member:(null) assembly:D:\UnityProjects\WebProject\Assets\Config\protogen\protobuf-net.Core.dll type:TypeModel member:(null) assembly:D:\UnityProjects\WebProject\Assets\Config\protogen\protobuf-net.Reflection.dll type:CustomProtogenSerializer member:(null)
+Unloading broken assembly Assets/Config/protogen/protogen.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Grpc.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Grpc.Reflection.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/Grpc.Net.Common.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/Grpc.Net.Client.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Core.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4633ms)
+		BeginReloadAssembly (490ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (3683ms)
+			LoadAssemblies (482ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1804ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (884ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (97ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (56.5 KB). Loaded Objects now: 3516.
+Memory consumption went from 108.3 MB to 108.2 MB.
+Total: 7.937400 ms (FindLiveObjects: 0.416800 ms CreateObjectMapping: 0.367400 ms MarkObjects: 6.993200 ms  DeleteObjects: 0.158100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1238166.155333 seconds.
+  path: Assets/Plugins/protobuf/Google.Protobuf.xml
+  artifactKey: Guid(785742bcd5ca6614c95bbe9fd3b1b990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/protobuf/Google.Protobuf.xml using Guid(785742bcd5ca6614c95bbe9fd3b1b990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1478954ff2467ca34a7c4b2a0946ac09') in 0.193178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82506.991759 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(e4be9113fbe94a91b8f7167bfc87ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(e4be9113fbe94a91b8f7167bfc87ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb0f014d6c60a4e673de3d5575f15f9') in 0.007521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.872625 seconds.
+  path: Assets/Scripts/ProtoTools.cs
+  artifactKey: Guid(2a4e1c3151feb31409eba859d3a065b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ProtoTools.cs using Guid(2a4e1c3151feb31409eba859d3a065b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edf746fdb8a26d7950f2bf68396da0e') in 0.098375 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.116437 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\WebProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\WebProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Could not load signature of ProtoBuf.Grpc.Configuration.ServerExceptionsInterceptorBase:UnaryServerHandler due to: Could not resolve type with token 01000028 from typeref (expected class 'System.Threading.Tasks.Task`1' in assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a') assembly:System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a type:System.Threading.Tasks.Task`1 member:(null)
+Unable to load attribute info on field .<>f__AnonymousType0`2::<method>i__Field. Are you missing a reference?
+Could not resolve field token 0x04000168, due to: Could not set up parent class, due to: Could not resolve type with token 01000028 from typeref (expected class 'System.IO.Stream' in assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a') assembly:System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a type:System.IO.Stream member:(null) assembly:D:\UnityProjects\WebProject\Assets\Config\protogen\protobuf-net.Core.dll type:TypeModel member:(null) assembly:D:\UnityProjects\WebProject\Assets\Config\protogen\protobuf-net.Reflection.dll type:CustomProtogenSerializer member:(null)
+Unloading broken assembly Assets/Config/protogen/protogen.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Grpc.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Grpc.Reflection.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/Grpc.Net.Common.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/Grpc.Net.Client.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Core.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3678ms)
+		BeginReloadAssembly (664ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (182ms)
+		EndReloadAssembly (2608ms)
+			LoadAssemblies (406ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (1322ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (290ms)
+				ProcessInitializeOnLoadAttributes (840ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (106ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (24.6 KB). Loaded Objects now: 3521.
+Memory consumption went from 108.0 MB to 108.0 MB.
+Total: 9.507000 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.191000 ms MarkObjects: 8.875700 ms  DeleteObjects: 0.150000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.115306 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\WebProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\WebProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Could not load signature of ProtoBuf.Grpc.Configuration.ServerExceptionsInterceptorBase:UnaryServerHandler due to: Could not resolve type with token 01000028 from typeref (expected class 'System.Threading.Tasks.Task`1' in assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a') assembly:System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a type:System.Threading.Tasks.Task`1 member:(null)
+Unable to load attribute info on field .<>f__AnonymousType0`2::<method>i__Field. Are you missing a reference?
+Could not resolve field token 0x04000168, due to: Could not set up parent class, due to: Could not resolve type with token 01000028 from typeref (expected class 'System.IO.Stream' in assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a') assembly:System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a type:System.IO.Stream member:(null) assembly:D:\UnityProjects\WebProject\Assets\Config\protogen\protobuf-net.Core.dll type:TypeModel member:(null) assembly:D:\UnityProjects\WebProject\Assets\Config\protogen\protobuf-net.Reflection.dll type:CustomProtogenSerializer member:(null)
+Unloading broken assembly Assets/Config/protogen/protogen.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Grpc.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Grpc.Reflection.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/Grpc.Net.Common.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/Grpc.Net.Client.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Core.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3174ms)
+		BeginReloadAssembly (443ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2343ms)
+			LoadAssemblies (371ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (631ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (1096ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (729ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (94ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (24.6 KB). Loaded Objects now: 3524.
+Memory consumption went from 108.0 MB to 108.0 MB.
+Total: 4.498400 ms (FindLiveObjects: 0.285000 ms CreateObjectMapping: 0.168000 ms MarkObjects: 3.994100 ms  DeleteObjects: 0.050100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.124371 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\WebProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\WebProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Could not load signature of ProtoBuf.Grpc.Configuration.ServerExceptionsInterceptorBase:UnaryServerHandler due to: Could not resolve type with token 01000028 from typeref (expected class 'System.Threading.Tasks.Task`1' in assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a') assembly:System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a type:System.Threading.Tasks.Task`1 member:(null)
+Unable to load attribute info on field .<>f__AnonymousType0`2::<method>i__Field. Are you missing a reference?
+Could not resolve field token 0x04000168, due to: Could not set up parent class, due to: Could not resolve type with token 01000028 from typeref (expected class 'System.IO.Stream' in assembly 'System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a') assembly:System.Runtime, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a type:System.IO.Stream member:(null) assembly:D:\UnityProjects\WebProject\Assets\Config\protogen\protobuf-net.Core.dll type:TypeModel member:(null) assembly:D:\UnityProjects\WebProject\Assets\Config\protogen\protobuf-net.Reflection.dll type:CustomProtogenSerializer member:(null)
+Unloading broken assembly Assets/Config/protogen/protogen.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Grpc.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Grpc.Reflection.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/Grpc.Net.Common.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/Grpc.Net.Client.dll, this assembly can cause crashes in the runtime
+Unloading broken assembly Assets/Config/protogen/protobuf-net.Core.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3426ms)
+		BeginReloadAssembly (475ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2585ms)
+			LoadAssemblies (409ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (654ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (1266ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (257ms)
+				ProcessInitializeOnLoadAttributes (854ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (91ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (25.7 KB). Loaded Objects now: 3527.
+Memory consumption went from 108.0 MB to 108.0 MB.
+Total: 10.817200 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.210300 ms MarkObjects: 10.267000 ms  DeleteObjects: 0.034900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 436437.628869 seconds.
+  path: Assets/Plugins/Mirror
+  artifactKey: Guid(35791c988d6367343b44896df3bdfff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror using Guid(35791c988d6367343b44896df3bdfff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b0ae8e9bf1ed5f2e4cdd4adb4ec2af') in 0.090779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.913362 seconds.
+  path: Assets/Plugins/Mirror/Plugins
+  artifactKey: Guid(05eb4061e2eb94061b9a08c918fff99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Plugins using Guid(05eb4061e2eb94061b9a08c918fff99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4038d50d26d1b0f054f7389153c649') in 0.007291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.655319 seconds.
+  path: Assets/Plugins/Mirror/Components
+  artifactKey: Guid(9bee879fbc8ef4b1a9a9f7088bfbf726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components using Guid(9bee879fbc8ef4b1a9a9f7088bfbf726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cfe62ba84983c9a1a60efd1056a0fe') in 0.006014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057434 seconds.
+  path: Assets/Plugins/Mirror/Components/Mirror.Components.asmdef
+  artifactKey: Guid(72872094b21c16e48b631b2224833d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/Mirror.Components.asmdef using Guid(72872094b21c16e48b631b2224833d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ca8078af806db036ba1c065401e1e4') in 0.022939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.848766 seconds.
+  path: Assets/Plugins/Mirror/Components/NetworkRoomManager.cs
+  artifactKey: Guid(615e6c6589cf9e54cad646b5a11e0529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/NetworkRoomManager.cs using Guid(615e6c6589cf9e54cad646b5a11e0529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d33ae5e27068e184ee7016b6b8fb41') in 0.005696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.393551 seconds.
+  path: Assets/Plugins/Mirror/Components/NetworkPingDisplay.cs
+  artifactKey: Guid(bc654f29862fc2643b948f772ebb9e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/NetworkPingDisplay.cs using Guid(bc654f29862fc2643b948f772ebb9e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311a9275cbdc18054405b6c02bdee571') in 0.007620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.312095 seconds.
+  path: Assets/Plugins/Mirror/Components/NetworkRoomPlayer.cs
+  artifactKey: Guid(79874ac94d5b1314788ecf0e86bd23fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/NetworkRoomPlayer.cs using Guid(79874ac94d5b1314788ecf0e86bd23fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e176dd3f37310a406286ff7d601d6586') in 0.005755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.646292 seconds.
+  path: Assets/Plugins/Mirror/Components/NetworkStatistics.cs
+  artifactKey: Guid(6d7da4e566d24ea7b0e12178d934b648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/NetworkStatistics.cs using Guid(6d7da4e566d24ea7b0e12178d934b648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb359b17e44301be22059c580d63739') in 0.006371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.014119 seconds.
+  path: Assets/Plugins/Mirror/Components/NetworkRigidbody
+  artifactKey: Guid(80106690aef541a5b8e2f8fb3d5949ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/NetworkRigidbody using Guid(80106690aef541a5b8e2f8fb3d5949ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc82e4630411cbd0124d2733b33188d') in 0.006334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.115119 seconds.
+  path: Assets/Plugins/Mirror/Components/NetworkTransform
+  artifactKey: Guid(36de72d9255741659bcbd1971ed29822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/NetworkTransform using Guid(36de72d9255741659bcbd1971ed29822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4b696a7c791629e75a237d9260be1b') in 0.007473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.295577 seconds.
+  path: Assets/Plugins/Mirror/Components/PredictedRigidbody
+  artifactKey: Guid(09cc6745984c453a8cfb4cf4244d2570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/PredictedRigidbody using Guid(09cc6745984c453a8cfb4cf4244d2570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea037c31eaf57c84b9a7e65672ae763') in 0.005763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.337233 seconds.
+  path: Assets/Plugins/Mirror/Components/AssemblyInfo.cs
+  artifactKey: Guid(a65b9283f7a724e70b8e17cb277f4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Mirror/Components/AssemblyInfo.cs using Guid(a65b9283f7a724e70b8e17cb277f4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0c75d17bb4321625670369009f0601') in 0.006559 seconds 

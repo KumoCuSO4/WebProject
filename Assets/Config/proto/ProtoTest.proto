@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+message Person {
+  string name = 1;
+  int32 age = 2;
+  int32 height = 3;
+  repeated int32 item = 4;
+}
