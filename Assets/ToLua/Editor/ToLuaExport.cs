@@ -300,8 +300,11 @@ public static class ToLuaExport
                 else
                 {
                     Type genericClass = typeof(LuaOut<>);
-                    Type t = genericClass.MakeGenericType(args[i].ParameterType.GetElementType());
-                    list.Add(t);
+                    var elementType = args[i].ParameterType.GetElementType();
+                    if (elementType != null) {
+                        Type t = genericClass.MakeGenericType(elementType);
+                        list.Add(t);
+                    }
                 }
             }
 
@@ -485,6 +488,10 @@ public static class ToLuaExport
                     {
                         sbArgs.Append("out arg");
                     }
+                    else if (param.Attributes == ParameterAttributes.In)
+                    {
+                        sbArgs.Append("in arg");
+                    }
                     else
                     {
                         sbArgs.Append("ref arg");
@@ -570,6 +577,7 @@ public static class ToLuaExport
                     }
                     else
                     {
+                        
                         sb.AppendFormat("{0}{1} o = {2}.{3}({4});\r\n", head, ret, obj, method.Name, sbArgs.ToString());
                     }
                 }

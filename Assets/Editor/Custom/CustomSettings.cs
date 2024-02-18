@@ -109,7 +109,7 @@ public static class CustomSettings
         _GT(typeof(CameraClearFlags)),
         _GT(typeof(AudioClip)),        
         _GT(typeof(AssetBundle)),
-        _GT(typeof(ParticleSystem)),
+        // _GT(typeof(ParticleSystem)),
         _GT(typeof(AsyncOperation)).SetBaseType(typeof(System.Object)),        
         _GT(typeof(LightType)),
         _GT(typeof(SleepTimeout)),
@@ -150,6 +150,8 @@ public static class CustomSettings
         _GT(typeof(RenderTexture)),
         _GT(typeof(Resources)),     
         _GT(typeof(LuaProfiler)),
+        
+        _GT(typeof(ToLuaTest)),
     };
 
     public static List<Type> dynamicList = new List<Type>()

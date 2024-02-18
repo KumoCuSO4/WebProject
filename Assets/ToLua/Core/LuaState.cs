@@ -162,6 +162,7 @@ namespace LuaInterface
             BeginModule("UnityEngine");
             UnityEngine_ObjectWrap.Register(this);            
             UnityEngine_CoroutineWrap.Register(this);
+            UnityEngine_ParticleSystemWrap.Register(this);
             EndModule(); //end UnityEngine
 
             EndModule(); //end global
